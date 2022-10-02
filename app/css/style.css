@@ -23,7 +23,7 @@
   src: url("../fonts/base02cyrillic.ttf");
 }
 .header {
-  background: #1d1d1d;
+  background: #101010;
   height: 123px;
   width: 100%;
 }
@@ -102,8 +102,9 @@ a.header-phone:before {
 }
 
 .promo {
-  background: #616161;
+  background: #1d1d1d;
   padding: 60px 0;
+  position: relative;
 }
 
 .promo-wrapper {
@@ -113,10 +114,20 @@ a.header-phone:before {
 .promo-box-left {
   display: flex;
 }
+.promo-box-left:after {
+  content: url("../images/promo/promo-arrow-small-gray.png");
+  height: 336px;
+  position: absolute;
+  right: 55%;
+  z-index: 0;
+  bottom: 4px;
+}
 
-.promo-img-left {
+.promo-img-wrapper {
   max-width: 640px;
   margin-right: 20px;
+  position: relative;
+  z-index: 1;
 }
 
 .promo-snow {
@@ -140,6 +151,19 @@ a.header-phone:before {
   align-self: flex-end;
 }
 
+.promo-desc {
+  margin-left: 20px;
+}
+.promo-desc:after {
+  content: url("../images/promo/promo-arrow-double.png");
+  height: 336px;
+  position: absolute;
+  right: 10%;
+  top: -5%;
+  z-index: 0;
+  bottom: 4px;
+}
+
 .promo-title {
   font-size: 56px;
   font-family: base02;
@@ -152,6 +176,7 @@ a.header-phone:before {
   font-size: 20px;
   color: #abe000;
   font-family: FranklinGothicItalic;
+  margin-bottom: 60px;
 }
 
 .promo-desc-img {
@@ -164,4 +189,17 @@ a.header-phone:before {
 
 .promo-desc-img {
   margin-right: 15px;
+}
+
+.btn {
+  background: #abe000;
+  width: 200px;
+  height: 45px;
+  border: 4px solid #ABE000;
+  border-radius: 100px;
+  padding: 10px 52px;
+  color: #1d1d1d;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: FranklinGothicItalic;
 }
