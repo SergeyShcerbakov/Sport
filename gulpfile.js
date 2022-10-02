@@ -34,7 +34,7 @@ function cssNano() {
 
 function imgmin() {
     return gulp
-        .src('./app/images/*.*')
+        .src('./app/images/**/*.*')
         .pipe(
             imagemin([
                 imagemin.gifsicle({ interlaced: true }),
