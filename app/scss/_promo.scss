@@ -1,0 +1,63 @@
+.promo {
+  background: #1d1d1d;
+  padding: 60px 0;
+}
+
+.promo-wrapper {
+  display: flex;
+}
+
+.promo-box-left {
+  display: flex;
+}
+
+.promo-img-left {
+  max-width: 640px;
+  margin-right: 20px;
+}
+
+.promo-snow {
+  margin-bottom: 20px;
+}
+
+.promo-fly {
+  margin-bottom: 20px;
+}
+.promo-img-right {
+  width: 290px;
+}
+
+.promo-box-right {
+  display: flex;
+  margin-left: 20px;
+}
+
+.promo-text {
+  align-self: flex-end;
+}
+
+.promo-title {
+  font-size: 56px;
+  font-family: base02;
+  color: #ffffff;
+  max-width: 453px;
+  margin-bottom: 20px;
+}
+
+.promo-slogan {
+  font-size: 20px;
+  color: #abe000;
+  font-family: FranklinGothicItalic;
+}
+
+.promo-desc-img {
+  margin-top: 137px;
+}
+
+.promo-boat-img {
+  margin-right: 20px;
+}
+
+.promo-desc-img {
+  margin-right: 15px;
+}
