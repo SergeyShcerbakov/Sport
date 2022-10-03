@@ -8,7 +8,7 @@
   display: flex;
 }
 
-.promo-box-left {
+.promo-left {
   display: flex;
   &:after{
     content: url('../images/promo/promo-arrow-small-gray.png');
@@ -20,7 +20,7 @@
   }
 }
 
-.promo-img-wrapper {
+.promo-img-one {
   max-width: 640px;
   margin-right: 20px;
   position: relative;
@@ -34,18 +34,14 @@
 .promo-fly {
   margin-bottom: 20px;
 }
-.promo-img-right {
+
+.promo-img-two {
   width: 290px;
 }
 
-.promo-box-right {
+.promo-right {
   display: flex;
   margin-left: 20px;
-  //&:before {
-  //  background-image: url('../images/promo/promo-next-green.svg');
-  //  background-repeat: no-repeat;
-  //  position: absolute;
-  //}
 }
 
 .promo-text {

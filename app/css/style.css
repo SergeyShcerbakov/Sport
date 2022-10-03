@@ -111,10 +111,10 @@ a.header-phone:before {
   display: flex;
 }
 
-.promo-box-left {
+.promo-left {
   display: flex;
 }
-.promo-box-left:after {
+.promo-left:after {
   content: url("../images/promo/promo-arrow-small-gray.png");
   height: 336px;
   position: absolute;
@@ -142,7 +142,7 @@ a.header-phone:before {
   width: 290px;
 }
 
-.promo-box-right {
+.promo-right {
   display: flex;
   margin-left: 20px;
 }
