@@ -1,0 +1,45 @@
+.earth {
+  background: #101010;
+  padding: 90px 0;
+}
+
+.earth-title {
+  color: #abe000;
+  font-size: 48px;
+  margin-left: 710px;
+  margin-bottom: 25px;
+  &:after {
+    content: url('../images/arrow.svg');
+    width: 37px;
+    height: 37px;
+    margin-left: 11px;
+  }
+}
+
+.earth-line {
+  width: 670px;
+  height: 5px;
+  background: #abe000;
+  margin-left: 517px;
+  margin-bottom: 25px;
+}
+
+.earth-subtitle {
+  color: #bcbcbc;
+  font-size: 64px;
+  margin-left: 29%;
+}
+
+.earth-vertically {
+  position: relative;
+}
+.air-hr {
+  border: none; /* Убираем границу */
+  background-color: #abe000; /* Цвет линии */
+  color: #abe000; /* Цвет линии для IE6-7 */
+  height: 280px; /* Толщина линии */
+  width: 5px;
+  margin-top: -14%;
+  margin-left: 93%;
+  position: absolute;
+}
