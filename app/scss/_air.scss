@@ -95,7 +95,7 @@ input {
 .air-plans {
   display: flex;
   margin-left: 243px;
-  z-index: 0;
+  z-index: 3;
   position: absolute;
 }
 
@@ -123,30 +123,67 @@ input {
 .air-img-one {
   margin-left: 517px;
   margin-top: -110px;
+  position: absolute;
 }
 
 .air-img-two {
   margin-top: -160px;
+  z-index: 3;
+  position: absolute;
 }
 
-//.box-img-bg-one {
-//  background: #abe000;
-//  width: 1050px;
-//  height: 250px;
-//  &:after {
-//    content: '';
-//    background: #abe000;
-//    width: 1050px;
-//    height: 250px;
-//  }
-//}
-
-.air-rectangle {
-  background: #abe000;
-  width: 1050px;
+.box-img:after {
+  content: url('../images/air/air-rectangle.jpg');
+  width: 150px;
   height: 280px;
-  position: absolute;
-  right: 0;
-  margin-top: 300px;
+  margin-left: 43%;
+}
+
+.air-planer-two {
+  margin-top: -7%;
+  margin-left: 60%;
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  background-image: url('../images/header-menu.svg');
   z-index: 0;
+  position: relative;
+}
+
+.air-text-two {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-family: FranklinGothicItalic;
+  font-size: 20px;
+  justify-content: center;
+  padding: 6px 0;
+  &:before {
+    content: url('../images/air/air-icon.svg');
+    width: 16px;
+    height: 16px;
+    margin-right: 12px;
+    vertical-align: -3px;
+  }
+}
+
+.air-photo-three {
+  margin-left: 70%;
+  margin-top: -3%;
+}
+
+.air-slogan {
+  color: #bcbcbc;
+  font-size: 64px;
+  margin-top: 85px;
+  margin-left: 312px;
+  font-family: "AG"; // not work
+  width: 1200px;
+  align-items: center;
+  display: flex;
+  &:before {
+    content: url('../images/air/air-arrom-left.svg');
+    width: 110px;
+    height: 135px;
+    margin-right: 20px;
+  }
 }
