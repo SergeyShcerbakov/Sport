@@ -1,0 +1,89 @@
+.fire {
+  background: #101010;
+  padding: 90px 0;
+  background-image: url("../images/fire/fire-bg-arrow-right.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position-x: 870px;
+}
+
+.fire-wrapper {
+  position: relative;
+}
+
+.fire-title {
+  font-size: 48px;
+  color: #abe000;
+  text-align: right;
+  //border-bottom: 5px solid #ffffff;
+  //padding: 0 42px 20px 0;
+  margin-bottom: 20px;
+  margin-right: 42px;
+  &:after {
+    content: url(../images/arrow.svg);
+    margin-left: 11px;
+  }
+}
+
+.fire-line {
+  width: 805px;
+  height: 5px;
+  background: #ffffff;
+  position: absolute;
+  right: 0;
+}
+
+.fire-subtitle {
+  font-size: 64px;
+  color: #bcbcbc;
+  margin-right: 42px;
+  text-align: right;
+  margin-top: 40px;
+}
+
+.fire-item {
+  display: flex;
+  margin-left: 71px;
+  margin-top: 180px;
+  position: absolute;
+  &:before {
+    content: url('../images/fire/fire-arrow-right-green.svg');
+    margin-right: 128px;
+    position: absolute;
+    top: -1020%;
+    right: 25%;
+  }
+}
+
+.fire-elem {
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  background-image: url(../images/header-menu.svg);
+}
+
+.fire-text {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: FranklinGothicItalic;
+  margin-top: 5px;
+  &:before {
+    content: url(../images/fire/fire-icon.svg);
+    width: 16px;
+    height: 16px;
+    margin-right: 12px;
+    vertical-align: -3px;
+  }
+}
+
+.fire-images {
+  margin-top: 20px;
+}
+
+img.img-car {
+  margin-left: 410px;
+}
+
+.img-bike {
+  margin-top: -235px;
+}
