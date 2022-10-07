@@ -109,12 +109,13 @@
   padding: 6px 0px;
 }
 
+<<<<<<< HEAD
 .earth__menu__link {
+=======
+a.earth__menu__link {
+>>>>>>> 532faabd3de104ff7d5340301374cec2488d956f
   text-decoration: none;
   font-size: 20px;
-  //display: flex;
-  //align-items: center;
-  //justify-content: center;
   text-transform: uppercase;
   color: #101010;
   &:before {
@@ -126,6 +127,7 @@
 .text-wrapper {
   padding: 20px 0;
 }
+
 .earth-desc {
   width: 920px;
   color: #ffffff;
