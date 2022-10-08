@@ -101,7 +101,7 @@
 }
 
 .earth-menu__item {
-  background-image: url(../images/header-menu.svg);
+  background-image: url("../images/header-menu.svg");
   background-repeat: no-repeat;
   width: 210px;
   height: 45px;
@@ -115,7 +115,7 @@ a.earth__menu__link {
   text-transform: uppercase;
   color: #101010;
   &:before {
-    content: url(../images/header-catalog.svg);
+    content: url("../images/header-catalog.svg");
     margin-right: 10px;
   }
 }
