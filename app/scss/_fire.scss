@@ -18,7 +18,7 @@
   margin-bottom: 20px;
   margin-right: 42px;
   &:after {
-    content: url(../images/arrow.svg);
+    content: url("../images/arrow.svg");
     margin-left: 11px;
   }
 }
@@ -57,7 +57,7 @@
   width: 200px;
   height: 45px;
   text-align: center;
-  background-image: url(../images/header-menu.svg);
+  background-image: url('../images/header-menu.svg');
 }
 
 .fire-text {
@@ -65,8 +65,9 @@
   text-transform: uppercase;
   font-family: FranklinGothicItalic;
   margin-top: 5px;
+  color: #101010;
   &:before {
-    content: url(../images/fire/fire-icon.svg);
+    content: url('../images/fire/fire-icon.svg');
     width: 16px;
     height: 16px;
     margin-right: 12px;
@@ -100,10 +101,10 @@
   padding: 20px 20px 0 0;
 }
 
-.fire-text {
+.fire-paragrath {
   width: 288px;
-  font-size: 16px;
   color: #ffffff;
+  font-size: 20px;
 }
 
 .fire-elem-carting {
@@ -115,10 +116,4 @@
   margin-top: 40px;
   left: 1192px;
   position: absolute;
-}
-
-.fire-text {
-  font-size: 20px;
-  color: #101010;
-  text-transform: uppercase;
 }
