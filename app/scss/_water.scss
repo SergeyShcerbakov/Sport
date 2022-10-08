@@ -1,0 +1,13 @@
+.water {
+  background: #101010;
+  padding: 90px 0;
+}
+
+.water-title {
+  color: #abe000;
+  font-size: 48px;
+  &:before {
+    content: url('../images/arrow.svg');
+    margin-right: 11px;
+  }
+}
