@@ -478,7 +478,7 @@ a.earth__menu__link {
   color: #101010;
 }
 a.earth__menu__link:before {
-  content: url(../images/header-catalog.svg);
+  content: url("../images/header-catalog.svg");
   margin-right: 10px;
 }
 
@@ -519,7 +519,7 @@ a.earth__menu__link:before {
   margin-right: 42px;
 }
 .fire-title:after {
-  content: url(../images/arrow.svg);
+  content: url("../images/arrow.svg");
   margin-left: 11px;
 }
 
@@ -557,7 +557,7 @@ a.earth__menu__link:before {
   width: 200px;
   height: 45px;
   text-align: center;
-  background-image: url(../images/header-menu.svg);
+  background-image: url("../images/header-menu.svg");
 }
 
 .fire-text {
@@ -565,9 +565,10 @@ a.earth__menu__link:before {
   text-transform: uppercase;
   font-family: FranklinGothicItalic;
   margin-top: 5px;
+  color: #101010;
 }
 .fire-text:before {
-  content: url(../images/fire/fire-icon.svg);
+  content: url("../images/fire/fire-icon.svg");
   width: 16px;
   height: 16px;
   margin-right: 12px;
@@ -600,10 +601,10 @@ a.earth__menu__link:before {
   padding: 20px 20px 0 0;
 }
 
-.fire-text {
+p.fire-paragrath {
+  color: #fff;
+  font-size: 20px;
   width: 288px;
-  font-size: 16px;
-  color: #ffffff;
 }
 
 .fire-elem-carting {
@@ -617,8 +618,16 @@ a.earth__menu__link:before {
   position: absolute;
 }
 
-.fire-text {
-  font-size: 20px;
-  color: #101010;
-  text-transform: uppercase;
+.water {
+  background: #101010;
+  padding: 90px 0;
+}
+
+.water-title {
+  color: #abe000;
+  font-size: 48px;
+}
+.water-title:before {
+  content: url("../images/arrow.svg");
+  margin-right: 11px;
 }
