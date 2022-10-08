@@ -18,7 +18,7 @@
   margin-bottom: 20px;
   margin-right: 42px;
   &:after {
-    content: url(../images/arrow.svg);
+    content: url("../images/arrow.svg");
     margin-left: 11px;
   }
 }
@@ -57,7 +57,7 @@
   width: 200px;
   height: 45px;
   text-align: center;
-  background-image: url(../images/header-menu.svg);
+  background-image: url("../images/header-menu.svg");
 }
 
 .fire-text {
@@ -66,7 +66,7 @@
   font-family: FranklinGothicItalic;
   margin-top: 5px;
   &:before {
-    content: url(../images/fire/fire-icon.svg);
+    content: url("../images/fire/fire-icon.svg");
     width: 16px;
     height: 16px;
     margin-right: 12px;
