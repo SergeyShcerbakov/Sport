@@ -601,10 +601,10 @@ a.earth__menu__link:before {
   padding: 20px 20px 0 0;
 }
 
-.fire-paragrath {
-  width: 288px;
-  color: #ffffff;
+p.fire-paragrath {
+  color: #fff;
   font-size: 20px;
+  width: 288px;
 }
 
 .fire-elem-carting {
