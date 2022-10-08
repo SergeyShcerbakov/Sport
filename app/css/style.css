@@ -736,3 +736,13 @@ a.earth__menu__link:before {
   left: 270px;
   top: -90px;
 }
+
+.water-elem-vesla {
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  background-image: url("../images/header-menu.svg");
+  position: absolute;
+  left: 85%;
+  top: -30px;
+}
