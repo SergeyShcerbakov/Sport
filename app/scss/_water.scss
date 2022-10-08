@@ -6,8 +6,40 @@
 .water-title {
   color: #abe000;
   font-size: 48px;
+  text-align: right;
+  margin-right: 120px;
+  margin-bottom: 40px;
   &:before {
     content: url('../images/arrow.svg');
     margin-right: 11px;
+  }
+}
+
+.water-subtitle {
+  color: #bcbcbc;
+  font-size: 64px;
+  text-align: right;
+  margin-right: 120px;
+}
+
+.water-line {
+  width: 670px;
+  height: 5px;
+  background: #abe000;
+  margin-left: 517px;
+  margin-bottom: 25px;
+}
+
+.water-vertical-line {
+  position: relative;
+  .water-hr {
+    border: none;
+    background-color: #abe000;
+    color: #abe000;
+    height: 280px;
+    width: 5px;
+    margin-top: -14%;
+    margin-left: 93%;
+    position: absolute;
   }
 }

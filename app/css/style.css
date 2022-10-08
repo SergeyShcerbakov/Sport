@@ -463,7 +463,7 @@ form {
 }
 
 .earth-menu__item {
-  background-image: url(../images/header-menu.svg);
+  background-image: url("../images/header-menu.svg");
   background-repeat: no-repeat;
   width: 210px;
   height: 45px;
@@ -478,7 +478,7 @@ a.earth__menu__link {
   color: #101010;
 }
 a.earth__menu__link:before {
-  content: url(../images/header-catalog.svg);
+  content: url("../images/header-catalog.svg");
   margin-right: 10px;
 }
 
@@ -519,7 +519,7 @@ a.earth__menu__link:before {
   margin-right: 42px;
 }
 .fire-title:after {
-  content: url(../images/arrow.svg);
+  content: url("../images/arrow.svg");
   margin-left: 11px;
 }
 
@@ -557,7 +557,7 @@ a.earth__menu__link:before {
   width: 200px;
   height: 45px;
   text-align: center;
-  background-image: url(../images/header-menu.svg);
+  background-image: url("../images/header-menu.svg");
 }
 
 .fire-text {
@@ -565,9 +565,10 @@ a.earth__menu__link:before {
   text-transform: uppercase;
   font-family: FranklinGothicItalic;
   margin-top: 5px;
+  color: #101010;
 }
 .fire-text:before {
-  content: url(../images/fire/fire-icon.svg);
+  content: url("../images/fire/fire-icon.svg");
   width: 16px;
   height: 16px;
   margin-right: 12px;
@@ -600,25 +601,65 @@ a.earth__menu__link:before {
   padding: 20px 20px 0 0;
 }
 
-.fire-text {
+.fire-paragrath {
   width: 288px;
-  font-size: 16px;
   color: #ffffff;
+  font-size: 20px;
 }
 
 .fire-elem-carting {
   width: 200px;
   height: 45px;
   background-image: url("../images/header-menu.svg");
-  text-align: center;
   display: flex;
+  justify-content: center;
   margin-top: 40px;
   left: 1192px;
   position: absolute;
 }
 
-.fire-text {
-  font-size: 20px;
-  color: #101010;
-  text-transform: uppercase;
+.water {
+  background: #101010;
+  padding: 90px 0;
+}
+
+.water-title {
+  color: #abe000;
+  font-size: 48px;
+  text-align: right;
+  margin-right: 120px;
+  margin-bottom: 40px;
+}
+.water-title:before {
+  content: url("../images/arrow.svg");
+  margin-right: 11px;
+}
+
+.water-subtitle {
+  color: #bcbcbc;
+  font-size: 64px;
+  text-align: right;
+  margin-right: 120px;
+}
+
+.water-line {
+  width: 670px;
+  height: 5px;
+  background: #abe000;
+  margin-left: 517px;
+  margin-bottom: 25px;
+}
+
+.water-vertical-line {
+  position: relative;
+}
+.water-vertical-line .water-hr {
+  border: none;
+  background-color: #abe000;
+  color: #abe000;
+  height: 280px;
+  width: 5px;
+  margin-top: -14%;
+  margin-left: 93%;
+  position: absolute;
 }
