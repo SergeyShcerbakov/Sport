@@ -9,6 +9,7 @@
   text-align: right;
   margin-right: 120px;
   margin-bottom: 40px;
+  font-family: AG;
   &:before {
     content: url('../images/arrow.svg');
     margin-right: 11px;
@@ -20,6 +21,7 @@
   font-size: 64px;
   text-align: right;
   margin-right: 120px;
+  font-family: AG;
 }
 
 .water-line {
@@ -100,6 +102,7 @@
   color: #ffffff;
   width: 288px;
   font-size: 16px;
+  font-family: AG;
 }
 
 .water-wave {
@@ -128,4 +131,27 @@
   top: -30px;
 }
 
-// media adaptation
+.water-liquid-title {
+  color: #abe000;
+  font-size: 48px;
+  margin-right: 120px;
+  margin-bottom: 40px;
+}
+
+.water-liquid-line {
+  width: 670px;
+  height: 5px;
+  background: #abe000;
+  margin-bottom: 25px;
+}
+
+.water-liquid-hr {
+  border: none;
+  background-color: #abe000;
+  color: #abe000;
+  height: 280px;
+  width: 5px;
+  margin-top: -14%;
+  margin-left: 93%;
+  position: absolute;
+}
