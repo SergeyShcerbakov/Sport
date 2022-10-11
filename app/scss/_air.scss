@@ -1,196 +1,3 @@
-//.air {
-//  background: #101010;
-//  padding: 90px 0;
-//}
-//
-//.air-title {
-//  font-size: 48px;
-//  font-family: AG;
-//  text-transform: uppercase;
-//  color: #abe000;
-//  text-align: center;
-//  margin-bottom: 25px;
-//  &:after {
-//    content: url('../images/arrow.svg');
-//    width: 37px;
-//    height: 37px;
-//    margin-left: 10px;
-//  }
-//}
-//
-//#air-form {
-//  text-align: center;
-//  margin-bottom: 140px;
-//}
-//
-//input {
-//  gap: 15px;
-//}
-//
-//.select {
-//  width: 14px;
-//  appearance: none; //-убираем стандартную стрелку
-//  overflow: hidden;
-//  background: url('../images/air/air-form-arrow.svg') no-repeat right; // -вставляем нужную
-//}
-//
-//#date {
-//  margin: 0 15px;
-//
-//}
-//
-////input[type=date]::-webkit-calendar-picker-indicator {
-////  opacity: 0; //скрывает иконку справа квадратную
-////}
-//
-//#date,
-//#price,
-//#city {
-//  width: 327px;
-//  height: 40px;
-//}
-//
-//.air-wrapper {
-//  width: 1220px;
-//}
-//
-//.air-subtitle {
-//  font-size: 48px;
-//  color: #abe000;
-//  margin-bottom: 25px;
-//  margin-left: 22px;
-//  text-transform: uppercase;
-//  &:after {
-//    content: url('../images/arrow.svg');
-//    width: 37px;
-//    height: 37px;
-//    margin-left: 10px;
-//  }
-//}
-//
-//.air-line {
-//  width: 805px;
-//  height: 5px;
-//  background: #ffffff;
-//  position: relative;
-//  &:after {
-//    content: url("../images/air/air-arrow-down-green.svg");
-//    width: 110px;
-//    height: 135px;
-//    margin-left: 1061px;
-//    position: absolute;
-//    bottom: -45px;
-//  }
-//}
-//
-//.air-desc {
-//  font-size: 16px;
-//  font-family: AG;
-//  color: #ffffff;
-//  width: 390px;
-//  margin-top: 54px;
-//  margin-bottom: 25px;
-//}
-//
-//.air-plans {
-//  display: flex;
-//  margin-left: 243px;
-//  z-index: 3;
-//  position: absolute;
-//}
-//
-//.air-planer {
-//  width: 200px;
-//  height: 45px;
-//  text-align: center;
-//  background-image: url('../images/header-menu.svg');
-//}
-//
-//.air-text {
-//  margin-top: 10px;
-//  text-transform: uppercase;
-//  font-family: FranklinGothicItalic;
-//  font-size: 20px;
-//  &:before {
-//    content: url('../images/air/air-icon.svg');
-//    width: 16px;
-//    height: 16px;
-//    margin-right: 12px;
-//    vertical-align: -3px;
-//  }
-//}
-//
-//.air-img-one {
-//  margin-left: 517px;
-//  margin-top: -110px;
-//  position: absolute;
-//}
-//
-//.air-img-two {
-//  margin-top: -160px;
-//  z-index: 3;
-//  position: absolute;
-//}
-//
-//.box-img:after {
-//  content: url('../images/air/air-rectangle.jpg');
-//  width: 150px;
-//  height: 280px;
-//  margin-left: 43%;
-//}
-//
-//.air-planer-two {
-//  margin-top: -7%;
-//  margin-left: 60%;
-//  width: 200px;
-//  height: 45px;
-//  text-align: center;
-//  background-image: url('../images/header-menu.svg');
-//  z-index: 0;
-//  position: relative;
-//}
-//
-//.air-text-two {
-//  margin-top: 10px;
-//  text-transform: uppercase;
-//  font-family: FranklinGothicItalic;
-//  font-size: 20px;
-//  justify-content: center;
-//  padding: 6px 0;
-//  &:before {
-//    content: url('../images/air/air-icon.svg');
-//    width: 16px;
-//    height: 16px;
-//    margin-right: 12px;
-//    vertical-align: -3px;
-//  }
-//}
-//
-//.air-photo-three {
-//  margin-left: 70%;
-//  margin-top: -3%;
-//}
-//
-//.air-slogan {
-//  color: #bcbcbc;
-//  font-size: 64px;
-//  margin-top: 85px;
-//  margin-left: 312px;
-//  font-family: "AG"; // not work
-//  width: 1200px;
-//  align-items: center;
-//  display: flex;
-//  &:before {
-//    content: url('../images/air/air-arrom-left.svg');
-//    width: 110px;
-//    height: 135px;
-//    margin-right: 20px;
-//  }
-//}
-
-
-// New Variant this section air
-
 .air {
   background: #101010;
   padding: 90px 0;
@@ -202,6 +9,7 @@
   color: #abe000;
   text-align: center;
   margin-bottom: 25px;
+  font-family: AG;
   &:after {
     content: url('../images/arrow.svg');
     margin-left: 11px;
@@ -236,6 +44,7 @@ form {
   width: 805px;
   padding-left: 20px;
   padding-bottom: 20px;
+  font-family: AG;
   &:after {
     content: url('../images/arrow.svg');
     margin-left: 11px;
@@ -265,6 +74,7 @@ form {
   width: 390px;
   color: #ffffff;
   margin-bottom: 36px;
+  font-family: AG;
 }
 
 .air-item-wrap {
@@ -276,7 +86,7 @@ form {
   width: 200px;
   height: 45px;
   text-align: center;
-  background-image: url(../images/header-menu.svg);
+  background-image: url('../images/header-menu.svg');
 }
 
 .planer-bottom {
@@ -291,7 +101,7 @@ form {
   font-family: FranklinGothicItalic;
   font-size: 20px;
   &:before {
-    content: url(../images/air/air-icon.svg);
+    content: url('../images/air/air-icon.svg');
     width: 16px;
     height: 16px;
     margin-right: 12px;
@@ -341,8 +151,9 @@ form {
   margin-left: 312px;
   align-items: center;
   display: flex;
+  font-family: AG;
   &:before {
-    content: url(../images/air/air-arrom-left.svg);
+    content: url('../images/air/air-arrom-left.svg');
     width: 110px;
     height: 135px;
     margin-right: 20px;

@@ -1,0 +1,131 @@
+.water {
+  background: #101010;
+  padding: 90px 0;
+}
+
+.water-title {
+  color: #abe000;
+  font-size: 48px;
+  text-align: right;
+  margin-right: 120px;
+  margin-bottom: 40px;
+  &:before {
+    content: url('../images/arrow.svg');
+    margin-right: 11px;
+  }
+}
+
+.water-subtitle {
+  color: #bcbcbc;
+  font-size: 64px;
+  text-align: right;
+  margin-right: 120px;
+}
+
+.water-line {
+  width: 670px;
+  height: 5px;
+  background: #abe000;
+  margin-left: 517px;
+  margin-bottom: 25px;
+}
+
+.water-vertical-line {
+  position: relative;
+  .water-hr {
+    border: none;
+    background-color: #abe000;
+    color: #abe000;
+    height: 280px;
+    width: 5px;
+    margin-top: -14%;
+    margin-left: 93%;
+    position: absolute;
+  }
+}
+
+.water-item-wrap {
+  position: relative;
+}
+
+.water-elem {
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  background-image: url("../images/header-menu.svg");
+  position: absolute;
+  top: 190px;
+  left: 20px;
+}
+
+.water-text {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-family: FranklinGothicItalic;
+  font-size: 20px;
+  color: #101010;
+  &:before {
+    content: url("../images/water/water-icon.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 12px;
+    vertical-align: -3px;
+  }
+}
+
+.water-elem.water-elem-serfing {
+  margin-left: 748px;
+  margin-top: -10%;
+}
+
+.water-wrapper {
+  display: flex;
+  margin-top: 45px;
+}
+
+.water-left-daving {
+  margin-top: 15%;
+}
+
+.water-left-girl {
+  margin-left: -6%;
+  margin-bottom: 110px;
+}
+
+.water-right {
+  margin-top: 180px;
+}
+
+.water-desc {
+  color: #ffffff;
+  width: 288px;
+  font-size: 16px;
+}
+
+.water-wave {
+  margin-left: 100px;
+  margin-right: 20px;
+  margin-bottom: 60px;
+}
+
+.water-elem-parus {
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  background-image: url("../images/header-menu.svg");
+  position: absolute;
+  left: 270px;
+  top: -90px;
+}
+
+.water-elem-vesla {
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  background-image: url("../images/header-menu.svg");
+  position: absolute;
+  left: 85%;
+  top: -30px;
+}
+
+// media adaptation

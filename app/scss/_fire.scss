@@ -59,7 +59,7 @@
   width: 200px;
   height: 45px;
   text-align: center;
-  background-image: url('../images/header-menu.svg');
+  background-image: url("../images/header-menu.svg");
 }
 
 .fire-text {
@@ -69,7 +69,7 @@
   margin-top: 5px;
   color: #101010;
   &:before {
-    content: url('../images/fire/fire-icon.svg');
+    content: url("../images/fire/fire-icon.svg");
     width: 16px;
     height: 16px;
     margin-right: 12px;
@@ -114,8 +114,8 @@ p.fire-paragrath {
   width: 200px;
   height: 45px;
   background-image: url('../images/header-menu.svg');
-  text-align: center;
   display: flex;
+  justify-content: center;
   margin-top: 40px;
   left: 1192px;
   position: absolute;

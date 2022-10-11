@@ -17,7 +17,7 @@
 }
 @font-face {
   font-family: "AG";
-  src: url("../fonts/agavantgardecyrbook.ttf");
+  src: url("../fonts/agavantgardecyrbook.woff");
 }
 @font-face {
   font-family: "base02";
@@ -216,6 +216,7 @@ a.header-phone:before {
   color: #abe000;
   text-align: center;
   margin-bottom: 25px;
+  font-family: AG;
 }
 .air-title:after {
   content: url("../images/arrow.svg");
@@ -290,7 +291,7 @@ form {
   width: 200px;
   height: 45px;
   text-align: center;
-  background-image: url(../images/header-menu.svg);
+  background-image: url("../images/header-menu.svg");
 }
 
 .planer-bottom {
@@ -306,7 +307,7 @@ form {
   font-size: 20px;
 }
 .air-text:before {
-  content: url(../images/air/air-icon.svg);
+  content: url("../images/air/air-icon.svg");
   width: 16px;
   height: 16px;
   margin-right: 12px;
@@ -357,7 +358,7 @@ form {
   display: flex;
 }
 .air-slogan:before {
-  content: url(../images/air/air-arrom-left.svg);
+  content: url("../images/air/air-arrom-left.svg");
   width: 110px;
   height: 135px;
   margin-right: 20px;
@@ -463,7 +464,7 @@ form {
 }
 
 .earth-menu__item {
-  background-image: url(../images/header-menu.svg);
+  background-image: url("../images/header-menu.svg");
   background-repeat: no-repeat;
   width: 210px;
   height: 45px;
@@ -478,7 +479,7 @@ a.earth__menu__link {
   color: #101010;
 }
 a.earth__menu__link:before {
-  content: url(../images/header-catalog.svg);
+  content: url("../images/header-catalog.svg");
   margin-right: 10px;
 }
 
@@ -519,7 +520,7 @@ a.earth__menu__link:before {
   margin-right: 42px;
 }
 .fire-title:after {
-  content: url(../images/arrow.svg);
+  content: url("../images/arrow.svg");
   margin-left: 11px;
 }
 
@@ -557,7 +558,7 @@ a.earth__menu__link:before {
   width: 200px;
   height: 45px;
   text-align: center;
-  background-image: url(../images/header-menu.svg);
+  background-image: url("../images/header-menu.svg");
 }
 
 .fire-text {
@@ -565,9 +566,10 @@ a.earth__menu__link:before {
   text-transform: uppercase;
   font-family: FranklinGothicItalic;
   margin-top: 5px;
+  color: #101010;
 }
 .fire-text:before {
-  content: url(../images/fire/fire-icon.svg);
+  content: url("../images/fire/fire-icon.svg");
   width: 16px;
   height: 16px;
   margin-right: 12px;
@@ -600,25 +602,149 @@ a.earth__menu__link:before {
   padding: 20px 20px 0 0;
 }
 
-.fire-text {
+p.fire-paragrath {
+  color: #fff;
+  font-size: 20px;
   width: 288px;
-  font-size: 16px;
-  color: #ffffff;
 }
 
 .fire-elem-carting {
   width: 200px;
   height: 45px;
   background-image: url("../images/header-menu.svg");
-  text-align: center;
   display: flex;
+  justify-content: center;
   margin-top: 40px;
   left: 1192px;
   position: absolute;
 }
 
-.fire-text {
+.water {
+  background: #101010;
+  padding: 90px 0;
+}
+
+.water-title {
+  color: #abe000;
+  font-size: 48px;
+  text-align: right;
+  margin-right: 120px;
+  margin-bottom: 40px;
+}
+.water-title:before {
+  content: url("../images/arrow.svg");
+  margin-right: 11px;
+}
+
+.water-subtitle {
+  color: #bcbcbc;
+  font-size: 64px;
+  text-align: right;
+  margin-right: 120px;
+}
+
+.water-line {
+  width: 670px;
+  height: 5px;
+  background: #abe000;
+  margin-left: 517px;
+  margin-bottom: 25px;
+}
+
+.water-vertical-line {
+  position: relative;
+}
+.water-vertical-line .water-hr {
+  border: none;
+  background-color: #abe000;
+  color: #abe000;
+  height: 280px;
+  width: 5px;
+  margin-top: -14%;
+  margin-left: 93%;
+  position: absolute;
+}
+
+.water-item-wrap {
+  position: relative;
+}
+
+.water-elem {
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  background-image: url("../images/header-menu.svg");
+  position: absolute;
+  top: 190px;
+  left: 20px;
+}
+
+.water-text {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-family: FranklinGothicItalic;
   font-size: 20px;
   color: #101010;
-  text-transform: uppercase;
+}
+.water-text:before {
+  content: url("../images/water/water-icon.svg");
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+  vertical-align: -3px;
+}
+
+.water-elem.water-elem-serfing {
+  margin-left: 748px;
+  margin-top: -10%;
+}
+
+.water-wrapper {
+  display: flex;
+  margin-top: 45px;
+}
+
+.water-left-daving {
+  margin-top: 15%;
+}
+
+.water-left-girl {
+  margin-left: -6%;
+  margin-bottom: 110px;
+}
+
+.water-right {
+  margin-top: 180px;
+}
+
+.water-desc {
+  color: #ffffff;
+  width: 288px;
+  font-size: 16px;
+}
+
+.water-wave {
+  margin-left: 100px;
+  margin-right: 20px;
+  margin-bottom: 60px;
+}
+
+.water-elem-parus {
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  background-image: url("../images/header-menu.svg");
+  position: absolute;
+  left: 270px;
+  top: -90px;
+}
+
+.water-elem-vesla {
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  background-image: url("../images/header-menu.svg");
+  position: absolute;
+  left: 85%;
+  top: -30px;
 }

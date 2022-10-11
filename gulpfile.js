@@ -21,13 +21,15 @@ function include() {
 };
 
 function buildStyles() {
-    return gulp.src('app/scss/**/*.scss')
+    return gulp
+        .src('app/scss/**/*.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('./app/css'));
 };
 
 function cssNano() {
-    return gulp.src('./app/css/style.css')
+    return gulp
+        .src('app/css/style.css')
         .pipe(cssnano())
         .pipe(gulp.dest('./dest/css'));
 };
@@ -55,7 +57,7 @@ function fonts() {
 
 exports.html = include;
 exports.css = buildStyles;
-exports.cssnano = cssNano;
+exports.nano = cssNano;
 exports.img = imgmin;
 exports.font = fonts;
 
