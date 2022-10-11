@@ -377,6 +377,7 @@ form {
   font-size: 48px;
   margin-left: 710px;
   margin-bottom: 25px;
+  font-family: AG;
 }
 .earth-title:after {
   content: url("../images/arrow.svg");
@@ -398,6 +399,7 @@ form {
   font-size: 64px;
   margin-left: 6%;
   margin-top: -5%;
+  font-family: AG;
 }
 .earth-subtitle:before {
   content: url("../images/earth/earth-arrow-up.svg");
@@ -495,6 +497,8 @@ a.earth__menu__link:before {
   color: #ffffff;
   display: inline-flex;
   margin-left: 11%;
+  font-size: 16px;
+  font-family: AG;
 }
 .earth-desc:after {
   content: url("../images/earth/earth-arrow-black-down.svg");
