@@ -663,3 +663,86 @@ p.fire-paragrath {
   margin-left: 93%;
   position: absolute;
 }
+
+.water-item-wrap {
+  position: relative;
+}
+
+.water-elem {
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  background-image: url("../images/header-menu.svg");
+  position: absolute;
+  top: 190px;
+  left: 20px;
+}
+
+.water-text {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-family: FranklinGothicItalic;
+  font-size: 20px;
+}
+.water-text:before {
+  content: url("../images/water/water-icon.svg");
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+  vertical-align: -3px;
+}
+
+.water-elem.water-elem-serfing {
+  margin-left: 748px;
+  margin-top: -10%;
+}
+
+.water-wrapper {
+  display: flex;
+  margin-top: 45px;
+}
+
+.water-left-daving {
+  margin-top: 15%;
+}
+
+.water-left-girl {
+  margin-left: -6%;
+  margin-bottom: 110px;
+}
+
+.water-right {
+  margin-top: 180px;
+}
+
+.water-desc {
+  color: #ffffff;
+  width: 288px;
+  font-size: 16px;
+}
+
+.water-wave {
+  margin-left: 100px;
+  margin-right: 20px;
+  margin-bottom: 60px;
+}
+
+.water-elem-parus {
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  background-image: url("../images/header-menu.svg");
+  position: absolute;
+  left: 270px;
+  top: -90px;
+}
+
+.water-elem-vesla {
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  background-image: url("../images/header-menu.svg");
+  position: absolute;
+  left: 85%;
+  top: -30px;
+}
