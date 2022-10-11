@@ -216,6 +216,7 @@ a.header-phone:before {
   color: #abe000;
   text-align: center;
   margin-bottom: 25px;
+  font-family: AG;
 }
 .air-title:after {
   content: url("../images/arrow.svg");
