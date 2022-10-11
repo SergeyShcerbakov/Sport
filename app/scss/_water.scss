@@ -1,6 +1,6 @@
 .water {
   background: #101010;
-  padding: 90px 0;
+  padding: 90px 0 130px 0;
 }
 
 .water-title {
@@ -135,7 +135,12 @@
   color: #abe000;
   font-size: 48px;
   margin-right: 120px;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
+  margin-left: 165px;
+  :before {
+    content: url('../images/arrow.svg');
+    margin-right: 11px;
+  }
 }
 
 .water-liquid-line {
@@ -151,7 +156,75 @@
   color: #abe000;
   height: 280px;
   width: 5px;
-  margin-top: -14%;
-  margin-left: 93%;
+  margin-top: -8.5%;
+  margin-left: 3%;
   position: absolute;
+}
+
+.water-wrap-menu {
+  display: flex;
+  align-items: center;
+}
+
+nav.water-menu {
+  margin-top: 40px;
+  margin-left: 132px;
+}
+
+.water-menu__list {
+  display: flex;
+  list-style: none;
+  font-family: FranklinGothicItalic;
+}
+
+.water-menu__item {
+  background-image: url('../images/header-menu.svg');
+  background-repeat: no-repeat;
+  width: 210px;
+  height: 45px;
+  text-align: center;
+  padding: 6px 0;
+}
+
+.water__menu__link {
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #101010;
+  &:before {
+      content: url('../images/fire/fire-icon.svg');
+      width: 16px;
+      height: 16px;
+      margin-right: 12px;
+      vertical-align: -3px;
+  }
+}
+
+.water-title-cold {
+  font-size: 48px;
+  font-family: AG;
+  color: #abe000;
+  margin-left: 50px;
+  margin-top: 25px;
+  &:before {
+    content: url('../images/arrow.svg');
+    margin-right: 11px;
+  }
+}
+
+.water-wrapper-img {
+  position: relative;
+}
+
+.water-box-img {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.water-arrow-bg {
+  position: absolute;
+  right: 0;
+  margin-top: 20px;
 }
