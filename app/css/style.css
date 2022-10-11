@@ -767,7 +767,7 @@ p.fire-paragrath {
   font-size: 48px;
   margin-right: 120px;
   margin-bottom: 25px;
-  margin-left: 165px;
+  font-family: AG;
 }
 .water-liquid-title :before {
   content: url("../images/arrow.svg");
