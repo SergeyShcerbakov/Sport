@@ -291,7 +291,7 @@ form {
   width: 200px;
   height: 45px;
   text-align: center;
-  background-image: url(../images/header-menu.svg);
+  background-image: url("../images/header-menu.svg");
 }
 
 .planer-bottom {
@@ -307,7 +307,7 @@ form {
   font-size: 20px;
 }
 .air-text:before {
-  content: url(../images/air/air-icon.svg);
+  content: url("../images/air/air-icon.svg");
   width: 16px;
   height: 16px;
   margin-right: 12px;
@@ -358,7 +358,7 @@ form {
   display: flex;
 }
 .air-slogan:before {
-  content: url(../images/air/air-arrom-left.svg);
+  content: url("../images/air/air-arrom-left.svg");
   width: 110px;
   height: 135px;
   margin-right: 20px;
