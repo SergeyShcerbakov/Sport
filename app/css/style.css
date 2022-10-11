@@ -765,8 +765,8 @@ p.fire-paragrath {
 .water-liquid-title {
   color: #abe000;
   font-size: 48px;
-  margin-right: 120px;
   margin-bottom: 25px;
+  margin-left: 120px;
   font-family: AG;
 }
 .water-liquid-title :before {
