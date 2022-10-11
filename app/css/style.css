@@ -251,6 +251,7 @@ form {
   width: 805px;
   padding-left: 20px;
   padding-bottom: 20px;
+  font-family: AG;
 }
 .air-subtitle:after {
   content: url("../images/arrow.svg");
@@ -280,6 +281,7 @@ form {
   width: 390px;
   color: #ffffff;
   margin-bottom: 36px;
+  font-family: AG;
 }
 
 .air-item-wrap {
@@ -353,9 +355,10 @@ form {
   color: #bcbcbc;
   font-size: 64px;
   margin-top: -22%;
-  margin-left: 312px;
+  margin-left: 280px;
   align-items: center;
   display: flex;
+  font-family: AG;
 }
 .air-slogan:before {
   content: url("../images/air/air-arrom-left.svg");
