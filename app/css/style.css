@@ -17,7 +17,7 @@
 }
 @font-face {
   font-family: "AG";
-  src: url("../fonts/agavantgardecyrbook.ttf");
+  src: url("../fonts/agavantgardecyrbook.woff");
 }
 @font-face {
   font-family: "base02";
@@ -629,6 +629,7 @@ p.fire-paragrath {
   text-align: right;
   margin-right: 120px;
   margin-bottom: 40px;
+  font-family: AG;
 }
 .water-title:before {
   content: url("../images/arrow.svg");
@@ -640,6 +641,7 @@ p.fire-paragrath {
   font-size: 64px;
   text-align: right;
   margin-right: 120px;
+  font-family: AG;
 }
 
 .water-line {
@@ -683,6 +685,7 @@ p.fire-paragrath {
   text-transform: uppercase;
   font-family: FranklinGothicItalic;
   font-size: 20px;
+  color: #101010;
 }
 .water-text:before {
   content: url("../images/water/water-icon.svg");
@@ -719,6 +722,7 @@ p.fire-paragrath {
   color: #ffffff;
   width: 288px;
   font-size: 16px;
+  font-family: AG;
 }
 
 .water-wave {
@@ -745,4 +749,29 @@ p.fire-paragrath {
   position: absolute;
   left: 85%;
   top: -30px;
+}
+
+.water-liquid-title {
+  color: #abe000;
+  font-size: 48px;
+  margin-right: 120px;
+  margin-bottom: 40px;
+}
+
+.water-liquid-line {
+  width: 670px;
+  height: 5px;
+  background: #abe000;
+  margin-bottom: 25px;
+}
+
+.water-liquid-hr {
+  border: none;
+  background-color: #abe000;
+  color: #abe000;
+  height: 280px;
+  width: 5px;
+  margin-top: -14%;
+  margin-left: 93%;
+  position: absolute;
 }
