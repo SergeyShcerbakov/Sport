@@ -8,6 +8,7 @@
   font-size: 48px;
   margin-left: 710px;
   margin-bottom: 25px;
+  font-family: AG;
   &:after {
     content: url('../images/arrow.svg');
     width: 37px;
@@ -29,6 +30,7 @@
   font-size: 64px;
   margin-left: 6%;
   margin-top: -5%;
+  font-family: AG;
   &:before {
     content: url('../images/earth/earth-arrow-up.svg');
     width: 110px;
@@ -129,6 +131,8 @@ a.earth__menu__link {
   color: #ffffff;
   display: inline-flex;
   margin-left: 11%;
+  font-size: 16px;
+  font-family: AG;
   &:after {
     content: url('../images/earth/earth-arrow-black-down.svg');
     margin-left: 120px;
