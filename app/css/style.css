@@ -525,6 +525,7 @@ a.earth__menu__link:before {
   text-align: right;
   margin-bottom: 20px;
   margin-right: 42px;
+  font-family: AG;
 }
 .fire-title:after {
   content: url("../images/arrow.svg");
@@ -541,6 +542,7 @@ a.earth__menu__link:before {
 
 .fire-subtitle {
   font-size: 64px;
+  font-family: AG;
   color: #bcbcbc;
   margin-right: 42px;
   text-align: right;
@@ -610,9 +612,10 @@ a.earth__menu__link:before {
 }
 
 p.fire-paragrath {
-  color: #fff;
-  font-size: 20px;
   width: 288px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: AG;
 }
 
 .fire-elem-carting {
