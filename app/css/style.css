@@ -17,7 +17,7 @@
 }
 @font-face {
   font-family: "AG";
-  src: url("../fonts/agavantgardecyrbook.ttf");
+  src: url("../fonts/agavantgardecyrbook.woff");
 }
 @font-face {
   font-family: "base02";
@@ -683,6 +683,7 @@ p.fire-paragrath {
   text-transform: uppercase;
   font-family: FranklinGothicItalic;
   font-size: 20px;
+  color: #101010;
 }
 .water-text:before {
   content: url("../images/water/water-icon.svg");
