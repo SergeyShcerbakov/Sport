@@ -40,6 +40,13 @@
 
 .choice-left {
   background: #1d1d1d;
+  width: 1050px;
+  position: relative;
+}
+
+.choice-rating {
+  right: 0;
+  position: absolute;
 }
 
 .subject {
