@@ -903,7 +903,7 @@ nav.water-menu {
 .choice-left {
   background: #1d1d1d;
   width: 1050px;
-  height: 385px;
+  height: 495px;
   position: relative;
 }
 
@@ -982,6 +982,7 @@ nav.water-menu {
 
 .pesontedan-content p {
   margin: 1em;
+  padding-left: 70px;
 }
 
 .pesontedan-desc {
