@@ -912,25 +912,9 @@ nav.water-menu {
   height: 12px;
 }
 
-.subject-title {
-  color: #ffffff;
-  font-family: FranklinGothicItalic;
-  font-size: 26px;
-  margin-left: 10px;
-}
-
-.subject-desc {
-  color: #ffffff;
-  font-size: 13px;
-  font-family: AG;
-  width: 600px;
-  margin-top: 25px;
-}
-
 .gaonutosal {
   float: left;
-  width: 37%;
-  padding: 0 1em;
+  width: 100%;
 }
 
 .pesontedan {
@@ -951,17 +935,32 @@ nav.water-menu {
   position: relative;
   display: block;
   padding: 0 0 0 1em;
-  background: #1c3e5d;
+  background: #1d1d1d;
   line-height: 3;
   cursor: pointer;
   text-shadow: 0 1px 0 #333131;
   font-size: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.subject-title {
+  color: #ffffff;
+  font-family: FranklinGothicItalic;
+  font-size: 26px;
+  margin-left: 10px;
+}
+
+.headline {
+  margin-left: 10px;
+  font-size: 26px;
+  font-family: FranklinGothicItalic;
 }
 
 .pesontedan-content {
   max-height: 0;
   overflow: hidden;
-  background: #0d7b8e;
+  background: #1d1d1d;
   transition: max-height 0.4s;
   font-size: 14px;
   color: #fffdfd;
@@ -969,11 +968,17 @@ nav.water-menu {
 }
 
 .pesontedan-content {
-  background: #0f6f80;
+  background: #1d1d1d;
 }
 
 .pesontedan-content p {
   margin: 1em;
+}
+
+.pesontedan-desc {
+  width: 600px;
+  font-family: AG;
+  font-size: 13px;
 }
 
 /* :checked */
@@ -996,18 +1001,33 @@ nav.water-menu {
   transition: all 0.4s;
 }
 
-.pesontedan input[type=checkbox] + label::after {
-  content: "+";
+.pesontedan input[type=checkbox] + label::before {
+  content: url("../images/choice/choice-arrow-accordion.svg");
+  margin-right: 25px;
 }
 
-.pesontedan input[type=radio] + label::after {
+.pesontedan input[type=radio] + label::before {
   content: "▼";
 }
 
-.pesontedan input[type=checkbox]:checked + label::after {
-  transform: rotate(315deg);
+.pesontedan input[type=checkbox]:checked + label::before {
+  transform: rotate(180deg);
 }
 
-.pesontedan input[type=radio]:checked + label::after {
+.pesontedan input[type=radio]:checked + label::before {
   transform: rotateX(180deg);
+}
+
+.choice-right {
+  position: relative;
+}
+
+.choice-arrow-img {
+  margin-left: 230px;
+}
+
+.choice-arrow-down {
+  position: absolute;
+  left: 24px;
+  bottom: -80px;
 }
