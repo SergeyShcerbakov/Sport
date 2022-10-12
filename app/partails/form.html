@@ -5,25 +5,39 @@
     <form action="URL" id="form-act">
         <div class="form-wrapper">
             <div class="act-form">
-                <input type="name" placeholder="Имя">
-                <input type="number" placeholder="Телефон">
+                <input type="name" placeholder="Имя" class="input-name" >
+                <input type="number" placeholder="Телефон" class="input-phone">
                 <p class="form-act-desc">выберите, пожалуйста, интересующий вопрос</p>
                 <input type="submit" value="Заказать" id="act-send">
             </div>
             <div class="form-content-wrap">
                 <div class="form-content">
                     <div class="form-radio">
-                        <input type="radio" name="browser" value="opera"><span class="radio-text">консультация</span>><Br>
+                        <input type="radio" name="browser" value="opera"><span class="radio-text">консультация</span><Br>
                         <input type="radio" name="browser" value="opera"><span class="radio-text">бронирование</span><Br>
                     </div>
                     <textarea name="comment" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
-                    <div>
-                        <input type="checkbox" id="scales" name="scales" checked>
-                        <label for="scales">подобрать тур</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="scales" name="scales" checked>
-                        <label for="scales">выбор места</label>
+                    <div class="checkbox-wrapper">
+                        <div class="checkbox-left">
+                            <div>
+                                <input type="checkbox" id="scales" name="scales" checked>
+                                <label for="scales" class="checkbox-label">подобрать тур</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="scales" name="scales" checked>
+                                <label for="scales" class="checkbox-label">выбор места</label>
+                            </div>
+                        </div>
+                        <div class="checkbox-right">
+                            <div>
+                                <input type="checkbox" id="scales" name="scales">
+                                <label for="scales" class="checkbox-label">поиск по дате</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="scales" name="scales">
+                                <label for="scales" class="checkbox-label">горящие акции</label>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

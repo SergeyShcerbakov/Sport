@@ -28,7 +28,6 @@ form#form-act {
 
 .form-content-wrap {
   position: relative;
-  background: #43f40e;
 }
 
 .form-content {
@@ -43,18 +42,34 @@ form#form-act {
 .radio-text {
   color: #ffffff;
   margin-left: 10px;
+  margin-right: 90px;
 }
 
-
 input[type="name"] {
-  width: 327px;
+  width: 287px;
   height: 40px;
+  padding-left: 40px;
   margin-bottom: 20px;
 }
 
+.input-name {
+  background-position-x: 10px;
+  background-position-y: 10px;
+  background-repeat: no-repeat;
+  background-image: url('../images/form/form-name-icon.svg');
+}
+
+.input-phone {
+  background-position-x: 10px;
+  background-position-y: 10px;
+  background-repeat: no-repeat;
+  background-image: url('../images/form/form-phone-icon.svg');
+}
+
 input[type="number"] {
-  width: 327px;
+  width: 287px;
   height: 40px;
+  padding-left: 40px;
   margin-bottom: 30px;
 }
 
@@ -63,7 +78,6 @@ input[type="number"] {
   font-size: 16px;
   margin-bottom: 32px;
 }
-
 
 input#act-send {
   background: #abe000;
@@ -78,24 +92,45 @@ input#act-send {
 }
 
 input[type="radio"] {
-  width: 20px;
+  width: 24px;
+  height: 24px;
 }
 
 .form-radio {
   display: flex;
   margin-bottom: 20px;
+  padding-top: 20px;
 }
 
 textarea {
   width: 490px;
+  height: 120px;
   padding: 12px 0 0 40px;
+  margin-bottom: 20px;
 }
 
 .act-form-bg {
   background: #abe000;
   position: absolute;
   width: 1000px;
-  height: 280px;
+  height: 300px;
   z-index: 0;
   right: 0;
+}
+
+.checkbox-wrapper {
+  display: flex;
+}
+
+.checkbox-left {
+  margin-right: 80px;
+}
+
+input#scales {
+  width: 24px;
+  height: 24px;
+}
+
+.checkbox-label {
+  font-size: 20px;
 }
