@@ -1041,3 +1041,140 @@ nav.water-menu {
   left: 24px;
   bottom: -80px;
 }
+
+.act {
+  background: #101010;
+  padding: 90px 0 200px;
+}
+
+.act-title {
+  color: #abe000;
+  font-size: 48px;
+  text-align: right;
+}
+.act-title:after {
+  content: url("../images/arrow.svg");
+  margin-left: 11px;
+}
+
+form#form-act {
+  margin-top: 40px;
+  position: relative;
+}
+
+.act-form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 210px;
+  text-align: center;
+  align-items: center;
+}
+
+.form-content-wrap {
+  position: relative;
+}
+
+.form-content {
+  background: #abe000;
+}
+
+.form-wrapper {
+  display: flex;
+  z-index: 1;
+}
+
+.radio-text {
+  color: #ffffff;
+  margin-left: 10px;
+  margin-right: 90px;
+}
+
+input[type=name] {
+  width: 287px;
+  height: 40px;
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+.input-name {
+  background-position-x: 10px;
+  background-position-y: 10px;
+  background-repeat: no-repeat;
+  background-image: url("../images/form/form-name-icon.svg");
+}
+
+.input-phone {
+  background-position-x: 10px;
+  background-position-y: 10px;
+  background-repeat: no-repeat;
+  background-image: url("../images/form/form-phone-icon.svg");
+}
+
+input[type=number] {
+  width: 287px;
+  height: 40px;
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+
+.form-act-desc {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+input#act-send {
+  background: #abe000;
+  width: 216px;
+  height: 46px;
+  outline: none;
+  border: 4px solid #ABE000;
+  border-radius: 100px;
+  font-family: FranklinGothicItalic;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+input[type=radio] {
+  width: 24px;
+  height: 24px;
+}
+
+.form-radio {
+  display: flex;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+textarea {
+  width: 490px;
+  height: 120px;
+  padding: 12px 0 0 40px;
+  margin-bottom: 20px;
+}
+
+.act-form-bg {
+  background: #abe000;
+  position: absolute;
+  width: 1000px;
+  height: 300px;
+  z-index: 0;
+  right: 0;
+}
+
+.checkbox-wrapper {
+  display: flex;
+}
+
+.checkbox-left {
+  margin-right: 80px;
+}
+
+input#scales {
+  width: 24px;
+  height: 24px;
+}
+
+.checkbox-label {
+  font-size: 20px;
+}
