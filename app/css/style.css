@@ -397,7 +397,7 @@ form {
 .earth-subtitle {
   color: #bcbcbc;
   font-size: 64px;
-  margin-left: 6%;
+  margin-left: 0;
   margin-top: -5%;
   font-family: AG;
 }
