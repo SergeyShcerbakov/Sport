@@ -1178,3 +1178,44 @@ input#scales {
 .checkbox-label {
   font-size: 20px;
 }
+
+.footer {
+  background: #1d1d1d;
+  padding: 60px 0 90px;
+}
+
+.footer-wrap-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.footer-caption {
+  color: #abe000;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: AG;
+}
+
+.footer-contact {
+  width: 182px;
+}
+
+.footer-address {
+  color: #ffffff;
+  font-size: 19px;
+}
+
+.footer-email {
+  display: inherit;
+  font-size: 19px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-tel-link {
+  display: block;
+  font-size: 19px;
+  text-decoration: none;
+  color: #abe000;
+}
