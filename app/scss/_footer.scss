@@ -92,5 +92,24 @@
 .footer-copyright-img {
   position: absolute;
   right: -25%;
-  top: -410%;
+  top: -340%;
+}
+
+.footer-right {
+  display: flex;
+}
+
+.footer-pay-img {
+  margin-bottom: 30px;
+}
+
+.footer-pay-left {
+  flex-direction: column;
+  display: flex;
+  margin-right: 55px;
+}
+
+.footer-pay-right {
+  display: flex;
+  flex-direction: column;
 }
