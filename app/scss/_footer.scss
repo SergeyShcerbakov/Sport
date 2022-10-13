@@ -1,6 +1,9 @@
 .footer {
   background: #1d1d1d;
   padding: 60px 0 90px;
+  background-image: url("../images/footer/footer-bg-left.svg");
+  background-repeat: no-repeat;
+  background-position-x: 30px;
 }
 
 .footer-wrap-title {
@@ -16,6 +19,12 @@
   font-family: AG;
 }
 
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 140px;
+}
+
 .footer-contact {
   width: 182px;
 }
@@ -23,6 +32,8 @@
 .footer-address {
   color: #ffffff;
   font-size: 19px;
+  font-family: AG;
+  line-height: 130%;
 }
 
 .footer-email {
@@ -30,6 +41,7 @@
   font-size: 19px;
   text-decoration: none;
   color: #ffffff;
+  line-height: 130%;
 }
 
 .footer-tel-link {
@@ -37,4 +49,48 @@
   font-size: 19px;
   text-decoration: none;
   color: #abe000;
+  line-height: 130%;
+}
+
+.footer-box-centr {
+  display: flex;
+  width: 392px;
+  justify-content: space-between;
+}
+
+.footer__item {
+  color: #ffffff;
+}
+
+.footer__item {
+  line-height: 130%;
+}
+
+.footer__item__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: AG;
+}
+
+.footer-copyright {
+  position: relative;
+}
+
+.copy {
+  width: 200px;
+  color: #ffffff;
+  font-family: AG;
+  font-size: 12px;
+}
+
+.copyright-size {
+  font-size: 19px;
+}
+
+.footer-copyright-img {
+  position: absolute;
+  right: -25%;
+  top: -410%;
 }
