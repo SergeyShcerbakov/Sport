@@ -374,38 +374,52 @@
     <form action="URL" id="form-act">
         <div class="form-wrapper">
             <div class="act-form">
-                <input type="name" placeholder="Имя" class="input-name" >
+                <input type="name" placeholder="Имя" class="input-name">
                 <input type="number" placeholder="Телефон" class="input-phone">
                 <p class="form-act-desc">выберите, пожалуйста, интересующий вопрос</p>
                 <input type="submit" value="Заказать" id="act-send">
             </div>
             <div class="form-content-wrap">
                 <div class="form-content">
-                    <div class="form-radio">
-                        <input type="radio" name="browser" value="opera"><span class="radio-text">консультация</span><Br>
-                        <input type="radio" name="browser" value="opera"><span class="radio-text">бронирование</span><Br>
+                    <div class="form-radio-wrap">
+                        <div class="form-radio__box">
+                            <input type="radio" name="checked" value="opera" class="input-radio" id="check-1">
+
+                            <label for="check-1" class="radio-label">
+                                <span class="form-button-radio"></span>
+                                консультация</label>
+                            <Br>
+                        </div>
+                        <div class="form-radio__box">
+                            <input type="radio" name="checked" value="opera" class="input-radio" id="check-2">
+
+                            <label for="check-2" class="radio-label">
+                                <span class="form-button-radio"></span>
+                                бронирование</label>
+                            <Br>
+                        </div>
                     </div>
-                    <textarea name="comment" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+                    <textarea name="comment" id="textarea" cols="30" rows="10" placeholder="Сообщение"></textarea>
                     <div class="checkbox-wrapper">
                         <div class="checkbox-left">
-                            <div>
-                                <input type="checkbox" id="scales" name="scales" checked>
-                                <label for="scales" class="checkbox-label">подобрать тур</label>
-                            </div>
-                            <div>
-                                <input type="checkbox" id="scales" name="scales" checked>
-                                <label for="scales" class="checkbox-label">выбор места</label>
-                            </div>
+                            <label class="checkbox-transform">
+                                <input type="checkbox" class="checkbox__input">
+                                <span class="checkbox__label">подобрать тур</span>
+                            </label>
+                            <label class="checkbox-transform">
+                                <input type="checkbox" class="checkbox__input">
+                                <span class="checkbox__label">выбор места</span>
+                            </label>
                         </div>
                         <div class="checkbox-right">
-                            <div>
-                                <input type="checkbox" id="scales" name="scales">
-                                <label for="scales" class="checkbox-label">поиск по дате</label>
-                            </div>
-                            <div>
-                                <input type="checkbox" id="scales" name="scales">
-                                <label for="scales" class="checkbox-label">горящие акции</label>
-                            </div>
+                            <label class="checkbox-transform">
+                                <input type="checkbox" class="checkbox__input">
+                                <span class="checkbox__label">поиск по дате</span>
+                            </label>
+                            <label class="checkbox-transform">
+                                <input type="checkbox" class="checkbox__input">
+                                <span class="checkbox__label">горящие акции</span>
+                            </label>
                         </div>
                     </div>
                 </div>
