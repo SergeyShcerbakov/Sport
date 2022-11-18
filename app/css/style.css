@@ -1097,6 +1097,7 @@ input[type=name] {
   height: 40px;
   padding-left: 40px;
   margin-bottom: 20px;
+  outline: none;
 }
 
 .input-name {
@@ -1118,6 +1119,7 @@ input[type=number] {
   height: 40px;
   padding-left: 40px;
   margin-bottom: 30px;
+  outline: none;
 }
 
 .form-act-desc {
