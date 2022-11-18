@@ -141,14 +141,13 @@ input[type="radio"] {
 textarea {
   width: 490px;
   height: 120px;
-  padding: 12px 0 0 40px;
+  padding: 12px 0 0 12px;
   margin-bottom: 20px;
   outline: none;
   &:placeholder-shown {
     content: '';
     background: url("../images/form/textarea-sms.svg") no-repeat;
-    background-position-y: 12%;
-    background-position-x: 3%;
+    background-position: 3% 12%;
     padding-left: 8%;
     background-color: #fff;
   }
