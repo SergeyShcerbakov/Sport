@@ -146,7 +146,7 @@ textarea {
   padding: 12px 0 0 12px;
   margin-bottom: 20px;
   outline: none;
-  &::placeholder {
+  &:placeholder-shown {
     content: '';
     background: url("../images/form/textarea-sms.svg") no-repeat;
     background-position: 3% 12%;

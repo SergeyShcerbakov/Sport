@@ -1190,7 +1190,7 @@ textarea {
   margin-bottom: 20px;
   outline: none;
 }
-textarea::placeholder {
+textarea:placeholder-shown {
   content: "";
   background: url("../images/form/textarea-sms.svg") no-repeat;
   background-position: 3% 12%;
