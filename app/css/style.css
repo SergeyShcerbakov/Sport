@@ -1184,15 +1184,16 @@ input[type=radio] {
 textarea {
   width: 490px;
   height: 120px;
-  padding: 12px 0 0 40px;
+  padding: 12px 0 0 12px;
   margin-bottom: 20px;
   outline: none;
 }
 textarea::placeholder {
   content: "";
   background: url("../images/form/textarea-sms.svg") no-repeat;
-  background-position-y: 12%;
-  padding-left: 25px;
+  background-position: 3% 12%;
+  padding-left: 8%;
+  background-color: #fff;
 }
 
 .act-form-bg {
